@@ -1,0 +1,96 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.016rem;
+  color: #6b7280;
+  background-color: #ffffff;
+  min-height: 100%;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  color: #111827;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// layout
+.bd-container {
+  max-width: 1024px;
+  width: calc(100% - 2rem);
+  margin: 0 1rem;
+}
+
+.bd-block {
+  display: block;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.restaurant-favorite_section {
+  padding: 5rem 0 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .bd-container {
+    margin: 0 auto;
+  }
+}
+
+// app
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// main
+.main_content {
+  flex: 1;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.content_heading {
+  text-align: center;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+	main {
+		max-width: 1200px;
+	}
+}

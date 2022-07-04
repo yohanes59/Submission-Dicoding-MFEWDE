@@ -1,0 +1,45 @@
+jumbo-tron {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	background-position: center;
+	background-color: black !important;
+
+	.hero-section {
+		position: relative;
+		padding-top: 60px;
+		width: 100%;
+		min-height: 380px;
+		background-image: url("./images/heros/hero-image_2.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+
+		.hero-text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			display: block;
+			padding: 20px;
+			width: 70%;
+			background-color: rgba(0, 0, 0, 0.3);
+
+			h1 {
+				font-size: 60px;
+				font-weight: 200;
+				color: #fff;
+				margin-top: 10px;
+			}
+
+			h2 {
+				font-size: 16px;
+				color: #f3f3f3;
+				font-weight: 400;
+				margin-top: 20px;
+			}
+		}
+	}
+}

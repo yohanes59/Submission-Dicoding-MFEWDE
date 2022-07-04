@@ -4,25 +4,20 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Resto Book</title>
+		<meta name="theme-color" content="#db0000" />
+		<link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+		<link rel="manifest" href="manifest.json">
+		<link rel="icon" href="favicon.png">
 	</head>
 	<body>
-		<a href="#maincontent" class="skip-link">Skip To Content</a>
+		<skip-content></skip-content>
 
         <menu-list></menu-list>
 
 		<jumbo-tron></jumbo-tron>
 
-		<main id="maincontent">
-			<section class="container">
-				<div class="contents">
-					<h1>Explore Restaurant</h1>
-                    <list-element id="listResto" class="content_list"></list-element>
-				</div>
-			</section>
-		</main>
+		<main id="maincontent" tabindex="0"></main>
 
-		<footer>
-			<p>Copyright © 2022 - Resto Book</p>
-		</footer>
+		<foot-bar></foot-bar>
 	</body>
 </html>
