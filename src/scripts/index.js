@@ -8,7 +8,7 @@ import App from "./views/app";
 import swRegister from './utils/sw-register';
 
 const app = new App({
-	menu: document.querySelector("#menu"),
+	menu: document.querySelector("#menu a"),
 	hero: document.querySelector(".hero-section"),
 	main: document.querySelector("main"),
 	drawer: document.querySelector("#drawer"),

@@ -3,6 +3,7 @@ const DrawerInitiator = {
         menu, hero, main, drawer,
     }) {
         menu.addEventListener('click', (event) => {
+            event.preventDefault();
             this._toggleDrawer(event, drawer);
         });
 

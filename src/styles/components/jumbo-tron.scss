@@ -10,7 +10,7 @@ jumbo-tron {
 		padding-top: 60px;
 		width: 100%;
 		min-height: 380px;
-		background-image: url("./images/heros/hero-image_2.jpg");
+		background-image: url("/images/hero-small.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -41,5 +41,11 @@ jumbo-tron {
 				margin-top: 20px;
 			}
 		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	jumbo-tron .hero-section {
+		background-image: url("/images/hero-large.jpg");
 	}
 }
